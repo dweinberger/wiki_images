@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testapi</title>
+	<meta name="generator" content="BBEdit 11.6" />
+	<script src="jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="./wikimedia5.js"></script>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	
+<script>
+// https://chrome.google.com/webstore/category/extensions?hl=en-US
+
+$(document).ready(function(){	
+	//getNames('START');
+
+});
+</script>
+
+
+</head>
+<body>
+
+<h1>Wikipedia image extractor</h1>
+<p>To run this in Chrome, install and activate this CORS extension: <a href="https://chrome.google.com/webstore/category/extensions?hl=en-US">https://chrome.google.com/webstore/category/extensions?hl=en-US </a></p>
+
+
+<h2>Step 1 - generate file of subcategory names</h2>
+<div>
+    Wikipedia category (e.g. Environmental_science): <textarea id="term" value="Environmental_science">Environmental_science</textarea>
+	<br /><span id="subcatbtn" class="button" onclick='getSubCats("START")'>Get subcategories</span>
+	<div id="response1"></div>
+</div>
+
+
+</body>
+</html>
