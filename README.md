@@ -42,6 +42,10 @@ Now you run Python again. This time it's getImagesFromArticles.py, with the main
  This will generate a JSON file with a title like "images_in_subcategories_of_Environmental_science.txt"
 
  It's just that simple!
+ 
+ ## Other scripts
+ 
+ Count_images.py does a buggy job of counting how many instances of each image is in the set so that you can find and exclude Wikipedia system images like its logo. It still screws up image file titles that have commas in them or something. It also seems to double all counts. It outputs CSV because I couldn't figure out how to sort on a key in a json file, but Excel knows how to sort on column B. 
 
  ## License, etc.
 
